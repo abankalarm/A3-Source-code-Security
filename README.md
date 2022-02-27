@@ -40,7 +40,7 @@ A pointer to a variable that the function sets to TRUE if the specified process 
 
 In order to implement it on the current process, we are first obtaining a handle to a current process and passing it to the win api, and then using the return value to stop or continue the program.
 
-####3.	AntiDebugPEB
+#### 3.	AntiDebugPEB
 
 Process Environment Block is a closed data structure that is used in the Windows NT operating system family. It is a data structure that is to be used by the operating system internally; several of the fields in the PEB structure are not intended for use by the average user. 
 
