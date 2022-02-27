@@ -25,7 +25,7 @@ A3 Source-Security is a tool with complete graphical interface that makes change
 ![GUI.png](Flowchart.jpg)
 
 # SEQUENCE DIAGRAM
-![GUI.png](Sequence Diagram.jpg)
+![GUI.png](Sequence\ Diagram.jpg)
 
 # FUNCTIONALITIES
 
