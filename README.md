@@ -67,3 +67,11 @@ This anti-debugging technique has been implemented in only 32 bit code.
 This relies on obtaining the NtQueryInformationProcess() process directly from ‘ntdll.dll’ which exports the Windows Native API and is the lowest function available in the userspace.
 The NtQueryInformationProcess is an internal operating system function that allows to query the information of a process, in our case we supply the flag
 
+
+#2 2. Encrypt strings
+
+The project aims to overcome this by using templates and compile time random generators to produce an XOR key and then encrypting the string at the compile time itself.
+
+#3 3. Junkcode (32 bit inline assembly)
+With this technique, the author inserts lots of code whose execution makes no difference to flow of the program, either after unconditional jumps, calls that never return, or conditional jumps with conditions that would never be met. The main goal of this code is to waste the reverse engineer's time analysing useless code or make the code graph look more complicated than it actually is.
+
