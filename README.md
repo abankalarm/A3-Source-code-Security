@@ -9,7 +9,8 @@ A3 Source-Security is a tool with complete graphical interface that makes change
 
 ![GUI.png](GUI.png)
 
-Implementation details:
+
+## Implementation details:
 
 1.	The main project provides a very customizable GUI for the user to manage the application.
 2.	The first thing a user does is import the source code of the application he wants to make changes to and select all the relevant options. 
@@ -19,6 +20,12 @@ Implementation details:
   c.	Adding junk assembly code that changes the structure of code without affecting functionality. 
   4.	After committing all changes, a detailed report for the same is generated.
 5.	Furthermore, a user can compile the source code of the application from the project menu itself.
+
+# FLOW CHART
+![GUI.png](Flowchart.jpg)
+
+# SEQUENCE DIAGRAM
+![GUI.png](Sequence Diagram.jpg)
 
 # FUNCTIONALITIES
 
