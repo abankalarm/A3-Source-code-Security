@@ -1,3 +1,7 @@
+## IMP NOTE:
+1. Compile in 32 bit VISUAL STUDIO CODE
+2. Move antidebug.h & encryptstring.h to location of compiled application. (CAN BE FOUND IN DEBUG FOLDER)
+
 # Securing-source-code
 A3 Source-Security is a tool with complete graphical interface that makes changes to source code of any application to make it much much more secure. This is done by adding Anti-tampering, Anti-debugging and anti-disassembly capabilities.
 
